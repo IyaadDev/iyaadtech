@@ -1,0 +1,10 @@
+2022-09-25T10:04:35+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-includes/class-wp-image-editor-gd.php on line 111
+
+2022-09-25T10:04:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-includes/class-wp-image-editor-gd.php on line 111
+
+2022-09-25T10:04:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-includes/class-wp-image-editor-gd.php on line 111
+
+2022-09-25T10:04:43+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-includes/media.php on line 3692
+
+2022-09-25T10:04:47+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-includes/media.php on line 3692
+

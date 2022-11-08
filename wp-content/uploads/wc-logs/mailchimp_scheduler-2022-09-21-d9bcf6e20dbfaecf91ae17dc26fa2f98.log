@@ -1,0 +1,15 @@
+2022-09-21T07:48:20+00:00 ERROR Incorrect response from Mailchimp API with: stdClass Object
+(
+    [code] => mailchimp-error
+    [message] => A MailChimp error has occurred.
+    [data] => stdClass Object
+        (
+            [type] => https://mailchimp.com/developer/marketing/docs/errors/
+            [title] => Invalid Resource
+            [status] => 400
+            [detail] => Please provide a valid email address.
+            [instance] => 1cd9f23e-e8ca-f8f0-3dad-218b53cb4466
+        )
+
+)
+

@@ -1,0 +1,193 @@
+0000.005 () Opened log file at time: Wed, 21 Sep 2022 05:22:42 +0000 on https://iyaadtech.cf
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.22 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 69.7M | 29M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: Unknown
+0000.030 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Wed, 21 Sep 2022 05:22:45 +0000 on https://iyaadtech.cf
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.22 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 67.6M | 37M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: Unknown
+0000.028 () Ensuring WP_Filesystem is setup for a restore
+0000.030 () WP_Filesystem is setup and ready for a restore
+0000.037 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp2w_options","wp2w_users","wp2w_usermeta","wp2w_actionscheduler_actions","wp2w_actionscheduler_claims","wp2w_actionscheduler_groups","wp2w_actionscheduler_logs","wp2w_commentmeta","wp2w_comments","wp2w_links","wp2w_postmeta","wp2w_posts","wp2w_term_relationships","wp2w_term_taxonomy","wp2w_termmeta","wp2w_terms","wp2w_wc_category_lookup","wp2w_wc_product_meta_lookup","wp2w_wc_reserved_stock","wp2w_wc_tax_rate_classes","wp2w_woocommerce_order_itemmeta","wp2w_woocommerce_payment_tokenmeta","wp2w_acfw_store_credits","wp2w_tm_taskmeta","wp2w_tm_tasks","wp2w_wc_admin_note_actions","wp2w_wc_admin_notes","wp2w_wc_customer_lookup","wp2w_wc_download_log","wp2w_wc_order_coupon_lookup","wp2w_wc_order_product_lookup","wp2w_wc_order_stats","wp2w_wc_order_tax_lookup","wp2w_wc_product_attributes_lookup","wp2w_wc_product_download_directories","wp2w_wc_rate_limits","wp2w_wc_webhooks","wp2w_woo_wallet_transaction_meta","wp2w_woo_wallet_transactions","wp2w_woocommerce_api_keys","wp2w_woocommerce_attribute_taxonomies","wp2w_woocommerce_downloadable_product_permissions","wp2w_woocommerce_log","wp2w_woocommerce_order_items","wp2w_woocommerce_payment_tokens","wp2w_woocommerce_sessions","wp2w_woocommerce_shipping_zone_locations","wp2w_woocommerce_shipping_zone_methods","wp2w_woocommerce_shipping_zones","wp2w_woocommerce_tax_rate_locations","wp2w_woocommerce_tax_rates"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.039 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.040 () Entity: db
+0000.040 () restore_backup(backup_file=backup_2022-09-21-0518_Iyaad_Tech_0d6eef349d78-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.040 () Unpacking backup... (backup_2022-09-21-0518_Iyaad_Tech_0d6eef349d78-db.gz, 0.2 Mb)
+0000.042 () Database successfully unpacked
+0000.042 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.042 () Using direct MySQL access; value of use_mysqli is: 1
+0000.044 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.075 () Tried to raise max_allowed_packet from 3 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.076 () Max packet size: 3 MB
+0000.076 () Entering maintenance mode
+0000.076 () Enabling Maintenance mode&#8230;
+0000.095 () Backup of: https://iyaadtech.cf
+0000.097 () Content URL: https://iyaadtech.cf/wp-content
+0000.097 () Uploads URL: https://iyaadtech.cf/wp-content/uploads
+0000.097 () Old table prefix: wp2w_
+0000.097 () Site information: multisite=0
+0000.098 () Site information: sql_mode=
+0000.098 () Skipped tables: zcf_contactformrelation, zcf_submitlogs, zcf_zohocrm_assignmentrule, zcf_zohocrm_formfield_manager, zcf_zohocrm_list_module, zcf_zohocrmform_field_manager, zcf_zohoshortcode_manager
+0000.100 () New table prefix: ve_
+0000.102 () Processing table (MyISAM): wp2w_options - will restore as: ve_options
+0000.209 () Atomic restore: dropping original table (wp2w_options)
+0000.211 () Atomic restore: renaming new table (ve_options) to final table name (wp2w_options)
+0000.211 () Restoring prior UD configuration (table: wp2w_options; keys: 4)
+0000.226 () Processing table (MyISAM): wp2w_users - will restore as: ve_users
+0000.236 () Atomic restore: dropping original table (wp2w_users)
+0000.237 () Atomic restore: renaming new table (ve_users) to final table name (wp2w_users)
+0000.238 () Processing table (MyISAM): wp2w_usermeta - will restore as: ve_usermeta
+0000.251 () Atomic restore: dropping original table (wp2w_usermeta)
+0000.252 () Atomic restore: renaming new table (ve_usermeta) to final table name (wp2w_usermeta)
+0000.253 () Processing table (MyISAM): wp2w_actionscheduler_actions - will restore as: ve_actionscheduler_actions
+0000.272 () Atomic restore: dropping original table (wp2w_actionscheduler_actions)
+0000.273 () Atomic restore: renaming new table (ve_actionscheduler_actions) to final table name (wp2w_actionscheduler_actions)
+0000.274 () Processing table (MyISAM): wp2w_actionscheduler_claims - will restore as: ve_actionscheduler_claims
+0000.280 () Atomic restore: dropping original table (wp2w_actionscheduler_claims)
+0000.281 () Atomic restore: renaming new table (ve_actionscheduler_claims) to final table name (wp2w_actionscheduler_claims)
+0000.283 () Processing table (MyISAM): wp2w_actionscheduler_groups - will restore as: ve_actionscheduler_groups
+0000.291 () Atomic restore: dropping original table (wp2w_actionscheduler_groups)
+0000.292 () Atomic restore: renaming new table (ve_actionscheduler_groups) to final table name (wp2w_actionscheduler_groups)
+0000.292 () Processing table (MyISAM): wp2w_actionscheduler_logs - will restore as: ve_actionscheduler_logs
+0000.312 () Atomic restore: dropping original table (wp2w_actionscheduler_logs)
+0000.312 () Atomic restore: renaming new table (ve_actionscheduler_logs) to final table name (wp2w_actionscheduler_logs)
+0000.313 () Processing table (MyISAM): wp2w_commentmeta - will restore as: ve_commentmeta
+0000.321 () Atomic restore: dropping original table (wp2w_commentmeta)
+0000.322 () Atomic restore: renaming new table (ve_commentmeta) to final table name (wp2w_commentmeta)
+0000.323 () Processing table (MyISAM): wp2w_comments - will restore as: ve_comments
+0000.332 () Atomic restore: dropping original table (wp2w_comments)
+0000.333 () Atomic restore: renaming new table (ve_comments) to final table name (wp2w_comments)
+0000.334 () Processing table (InnoDB): wp2w_links - will restore as: ve_links
+0000.346 () Atomic restore: dropping original table (wp2w_links)
+0000.349 () Atomic restore: renaming new table (ve_links) to final table name (wp2w_links)
+0000.353 () Processing table (MyISAM): wp2w_postmeta - will restore as: ve_postmeta
+0000.406 () Atomic restore: dropping original table (wp2w_postmeta)
+0000.407 () Atomic restore: renaming new table (ve_postmeta) to final table name (wp2w_postmeta)
+0000.408 () Processing table (MyISAM): wp2w_posts - will restore as: ve_posts
+0000.425 () Atomic restore: dropping original table (wp2w_posts)
+0000.428 () Atomic restore: renaming new table (ve_posts) to final table name (wp2w_posts)
+0000.429 () Processing table (MyISAM): wp2w_term_relationships - will restore as: ve_term_relationships
+0000.438 () Atomic restore: dropping original table (wp2w_term_relationships)
+0000.440 () Atomic restore: renaming new table (ve_term_relationships) to final table name (wp2w_term_relationships)
+0000.441 () Processing table (MyISAM): wp2w_term_taxonomy - will restore as: ve_term_taxonomy
+0000.450 () Atomic restore: dropping original table (wp2w_term_taxonomy)
+0000.452 () Atomic restore: renaming new table (ve_term_taxonomy) to final table name (wp2w_term_taxonomy)
+0000.453 () Processing table (MyISAM): wp2w_termmeta - will restore as: ve_termmeta
+0000.460 () Database queries processed: 50 in 0.41 seconds
+0000.463 () Atomic restore: dropping original table (wp2w_termmeta)
+0000.464 () Atomic restore: renaming new table (ve_termmeta) to final table name (wp2w_termmeta)
+0000.465 () Processing table (MyISAM): wp2w_terms - will restore as: ve_terms
+0000.474 () Atomic restore: dropping original table (wp2w_terms)
+0000.474 () Atomic restore: renaming new table (ve_terms) to final table name (wp2w_terms)
+0000.475 () Processing table (MyISAM): wp2w_wc_category_lookup - will restore as: ve_wc_category_lookup
+0000.484 () Atomic restore: dropping original table (wp2w_wc_category_lookup)
+0000.484 () Atomic restore: renaming new table (ve_wc_category_lookup) to final table name (wp2w_wc_category_lookup)
+0000.485 () Processing table (MyISAM): wp2w_wc_product_meta_lookup - will restore as: ve_wc_product_meta_lookup
+0000.494 () Atomic restore: dropping original table (wp2w_wc_product_meta_lookup)
+0000.494 () Atomic restore: renaming new table (ve_wc_product_meta_lookup) to final table name (wp2w_wc_product_meta_lookup)
+0000.495 () Processing table (MyISAM): wp2w_wc_reserved_stock - will restore as: ve_wc_reserved_stock
+0000.501 () Atomic restore: dropping original table (wp2w_wc_reserved_stock)
+0000.502 () Atomic restore: renaming new table (ve_wc_reserved_stock) to final table name (wp2w_wc_reserved_stock)
+0000.504 () Processing table (MyISAM): wp2w_wc_tax_rate_classes - will restore as: ve_wc_tax_rate_classes
+0000.510 () Atomic restore: dropping original table (wp2w_wc_tax_rate_classes)
+0000.511 () Atomic restore: renaming new table (ve_wc_tax_rate_classes) to final table name (wp2w_wc_tax_rate_classes)
+0000.513 () Processing table (MyISAM): wp2w_woocommerce_order_itemmeta - will restore as: ve_woocommerce_order_itemmeta
+0000.523 () Atomic restore: dropping original table (wp2w_woocommerce_order_itemmeta)
+0000.524 () Atomic restore: renaming new table (ve_woocommerce_order_itemmeta) to final table name (wp2w_woocommerce_order_itemmeta)
+0000.525 () Processing table (MyISAM): wp2w_woocommerce_payment_tokenmeta - will restore as: ve_woocommerce_payment_tokenmeta
+0000.532 () Atomic restore: dropping original table (wp2w_woocommerce_payment_tokenmeta)
+0000.532 () Atomic restore: renaming new table (ve_woocommerce_payment_tokenmeta) to final table name (wp2w_woocommerce_payment_tokenmeta)
+0000.534 () Processing table (MyISAM): wp2w_acfw_store_credits - will restore as: ve_acfw_store_credits
+0000.540 () Atomic restore: dropping original table (wp2w_acfw_store_credits)
+0000.541 () Atomic restore: renaming new table (ve_acfw_store_credits) to final table name (wp2w_acfw_store_credits)
+0000.543 () Processing table (MyISAM): wp2w_tm_taskmeta - will restore as: ve_tm_taskmeta
+0000.550 () Atomic restore: dropping original table (wp2w_tm_taskmeta)
+0000.550 () Atomic restore: renaming new table (ve_tm_taskmeta) to final table name (wp2w_tm_taskmeta)
+0000.552 () Processing table (MyISAM): wp2w_tm_tasks - will restore as: ve_tm_tasks
+0000.559 () Atomic restore: dropping original table (wp2w_tm_tasks)
+0000.560 () Atomic restore: renaming new table (ve_tm_tasks) to final table name (wp2w_tm_tasks)
+0000.562 () Processing table (MyISAM): wp2w_wc_admin_note_actions - will restore as: ve_wc_admin_note_actions
+0000.572 () Atomic restore: dropping original table (wp2w_wc_admin_note_actions)
+0000.573 () Atomic restore: renaming new table (ve_wc_admin_note_actions) to final table name (wp2w_wc_admin_note_actions)
+0000.574 () Processing table (MyISAM): wp2w_wc_admin_notes - will restore as: ve_wc_admin_notes
+0000.586 () Atomic restore: dropping original table (wp2w_wc_admin_notes)
+0000.588 () Atomic restore: renaming new table (ve_wc_admin_notes) to final table name (wp2w_wc_admin_notes)
+0000.588 () Processing table (MyISAM): wp2w_wc_customer_lookup - will restore as: ve_wc_customer_lookup
+0000.598 () Atomic restore: dropping original table (wp2w_wc_customer_lookup)
+0000.598 () Atomic restore: renaming new table (ve_wc_customer_lookup) to final table name (wp2w_wc_customer_lookup)
+0000.599 () Processing table (MyISAM): wp2w_wc_download_log - will restore as: ve_wc_download_log
+0000.613 () Atomic restore: dropping original table (wp2w_wc_download_log)
+0000.613 () Atomic restore: renaming new table (ve_wc_download_log) to final table name (wp2w_wc_download_log)
+0000.614 () Processing table (MyISAM): wp2w_wc_order_coupon_lookup - will restore as: ve_wc_order_coupon_lookup
+0000.631 () Atomic restore: dropping original table (wp2w_wc_order_coupon_lookup)
+0000.632 () Atomic restore: renaming new table (ve_wc_order_coupon_lookup) to final table name (wp2w_wc_order_coupon_lookup)
+0000.632 () Processing table (MyISAM): wp2w_wc_order_product_lookup - will restore as: ve_wc_order_product_lookup
+0000.644 () Atomic restore: dropping original table (wp2w_wc_order_product_lookup)
+0000.644 () Atomic restore: renaming new table (ve_wc_order_product_lookup) to final table name (wp2w_wc_order_product_lookup)
+0000.645 () Processing table (MyISAM): wp2w_wc_order_stats - will restore as: ve_wc_order_stats
+0000.658 () Atomic restore: dropping original table (wp2w_wc_order_stats)
+0000.660 () Atomic restore: renaming new table (ve_wc_order_stats) to final table name (wp2w_wc_order_stats)
+0000.660 () Processing table (MyISAM): wp2w_wc_order_tax_lookup - will restore as: ve_wc_order_tax_lookup
+0000.667 () Atomic restore: dropping original table (wp2w_wc_order_tax_lookup)
+0000.667 () Atomic restore: renaming new table (ve_wc_order_tax_lookup) to final table name (wp2w_wc_order_tax_lookup)
+0000.670 () Processing table (MyISAM): wp2w_wc_product_attributes_lookup - will restore as: ve_wc_product_attributes_lookup
+0000.676 () Database queries processed: 100 in 0.63 seconds
+0000.676 () Atomic restore: dropping original table (wp2w_wc_product_attributes_lookup)
+0000.677 () Atomic restore: renaming new table (ve_wc_product_attributes_lookup) to final table name (wp2w_wc_product_attributes_lookup)
+0000.679 () Processing table (MyISAM): wp2w_wc_product_download_directories - will restore as: ve_wc_product_download_directories
+0000.687 () Atomic restore: dropping original table (wp2w_wc_product_download_directories)
+0000.688 () Atomic restore: renaming new table (ve_wc_product_download_directories) to final table name (wp2w_wc_product_download_directories)
+0000.689 () Processing table (MyISAM): wp2w_wc_rate_limits - will restore as: ve_wc_rate_limits
+0000.695 () Atomic restore: dropping original table (wp2w_wc_rate_limits)
+0000.695 () Atomic restore: renaming new table (ve_wc_rate_limits) to final table name (wp2w_wc_rate_limits)
+0000.697 () Processing table (MyISAM): wp2w_wc_webhooks - will restore as: ve_wc_webhooks
+0000.704 () Atomic restore: dropping original table (wp2w_wc_webhooks)
+0000.704 () Atomic restore: renaming new table (ve_wc_webhooks) to final table name (wp2w_wc_webhooks)
+0000.706 () Processing table (MyISAM): wp2w_woo_wallet_transaction_meta - will restore as: ve_woo_wallet_transaction_meta
+0000.716 () Atomic restore: dropping original table (wp2w_woo_wallet_transaction_meta)
+0000.716 () Atomic restore: renaming new table (ve_woo_wallet_transaction_meta) to final table name (wp2w_woo_wallet_transaction_meta)
+0000.717 () Processing table (MyISAM): wp2w_woo_wallet_transactions - will restore as: ve_woo_wallet_transactions
+0000.725 () Atomic restore: dropping original table (wp2w_woo_wallet_transactions)
+0000.726 () Atomic restore: renaming new table (ve_woo_wallet_transactions) to final table name (wp2w_woo_wallet_transactions)
+0000.727 () Processing table (MyISAM): wp2w_woocommerce_api_keys - will restore as: ve_woocommerce_api_keys
+0000.732 () Atomic restore: dropping original table (wp2w_woocommerce_api_keys)
+0000.733 () Atomic restore: renaming new table (ve_woocommerce_api_keys) to final table name (wp2w_woocommerce_api_keys)
+0000.735 () Processing table (MyISAM): wp2w_woocommerce_attribute_taxonomies - will restore as: ve_woocommerce_attribute_taxonomies
+0000.743 () Atomic restore: dropping original table (wp2w_woocommerce_attribute_taxonomies)
+0000.744 () Atomic restore: renaming new table (ve_woocommerce_attribute_taxonomies) to final table name (wp2w_woocommerce_attribute_taxonomies)
+0000.746 () Processing table (MyISAM): wp2w_woocommerce_downloadable_product_permissions - will restore as: ve_woocommerce_downloadable_product_permissions
+0000.756 () Atomic restore: dropping original table (wp2w_woocommerce_downloadable_product_permissions)
+0000.756 () Atomic restore: renaming new table (ve_woocommerce_downloadable_product_permissions) to final table name (wp2w_woocommerce_downloadable_product_permissions)
+0000.757 () Processing table (MyISAM): wp2w_woocommerce_log - will restore as: ve_woocommerce_log
+0000.767 () Atomic restore: dropping original table (wp2w_woocommerce_log)
+0000.767 () Atomic restore: renaming new table (ve_woocommerce_log) to final table name (wp2w_woocommerce_log)
+0000.769 () Processing table (MyISAM): wp2w_woocommerce_order_items - will restore as: ve_woocommerce_order_items
+0000.778 () Atomic restore: dropping original table (wp2w_woocommerce_order_items)
+0000.779 () Atomic restore: renaming new table (ve_woocommerce_order_items) to final table name (wp2w_woocommerce_order_items)
+0000.779 () Processing table (MyISAM): wp2w_woocommerce_payment_tokens - will restore as: ve_woocommerce_payment_tokens
+0000.786 () Atomic restore: dropping original table (wp2w_woocommerce_payment_tokens)
+0000.787 () Atomic restore: renaming new table (ve_woocommerce_payment_tokens) to final table name (wp2w_woocommerce_payment_tokens)
+0000.789 () Processing table (MyISAM): wp2w_woocommerce_sessions - will restore as: ve_woocommerce_sessions
+0000.797 () Atomic restore: dropping original table (wp2w_woocommerce_sessions)
+0000.798 () Atomic restore: renaming new table (ve_woocommerce_sessions) to final table name (wp2w_woocommerce_sessions)
+0000.799 () Processing table (MyISAM): wp2w_woocommerce_shipping_zone_locations - will restore as: ve_woocommerce_shipping_zone_locations
+0000.807 () Atomic restore: dropping original table (wp2w_woocommerce_shipping_zone_locations)
+0000.808 () Atomic restore: renaming new table (ve_woocommerce_shipping_zone_locations) to final table name (wp2w_woocommerce_shipping_zone_locations)
+0000.808 () Processing table (MyISAM): wp2w_woocommerce_shipping_zone_methods - will restore as: ve_woocommerce_shipping_zone_methods
+0000.816 () Atomic restore: dropping original table (wp2w_woocommerce_shipping_zone_methods)
+0000.817 () Atomic restore: renaming new table (ve_woocommerce_shipping_zone_methods) to final table name (wp2w_woocommerce_shipping_zone_methods)
+0000.817 () Processing table (MyISAM): wp2w_woocommerce_shipping_zones - will restore as: ve_woocommerce_shipping_zones
+0000.827 () Atomic restore: dropping original table (wp2w_woocommerce_shipping_zones)
+0000.827 () Atomic restore: renaming new table (ve_woocommerce_shipping_zones) to final table name (wp2w_woocommerce_shipping_zones)
+0000.829 () Processing table (MyISAM): wp2w_woocommerce_tax_rate_locations - will restore as: ve_woocommerce_tax_rate_locations
+0000.838 () Atomic restore: dropping original table (wp2w_woocommerce_tax_rate_locations)
+0000.840 () Atomic restore: renaming new table (ve_woocommerce_tax_rate_locations) to final table name (wp2w_woocommerce_tax_rate_locations)
+0000.842 () Processing table (MyISAM): wp2w_woocommerce_tax_rates - will restore as: ve_woocommerce_tax_rates
+0000.880 () Unlocking database and leaving maintenance mode
+0000.880 () Disabling Maintenance mode&#8230;
+0000.880 () Atomic restore: dropping original table (wp2w_woocommerce_tax_rates)
+0000.881 () Atomic restore: renaming new table (ve_woocommerce_tax_rates) to final table name (wp2w_woocommerce_tax_rates)
+0000.884 () Finished: lines processed: 145 in 0.84 seconds
+0000.885 () Cleaning up rubbish...
+0000.903 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0000.975 () Restore successful!
+0000.975 () Restore successful

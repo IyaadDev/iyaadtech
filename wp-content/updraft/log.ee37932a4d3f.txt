@@ -1,0 +1,707 @@
+0000.000 (0) Opened log file at time: Thu, 06 Oct 2022 07:52:16 +0000 on https://iyaadtech.cf
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 68.4M | 61M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.004 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.008 (0) Semaphore (fd, wp2w_options) was stuck, set lock time to 2022-10-06 07:52:16
+0000.009 (0) Semaphore (fd, wp2w_options) reset to 1
+0000.010 (0) Set semaphore last lock (fd) time to 2022-10-06 07:52:16
+0000.010 (0) Semaphore lock (fd) complete
+0000.014 (0) Backup run: resumption=0, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (0s ago), job type=backup
+0000.015 (0) Scheduling a resumption (1) after 300 seconds (1665043036) in case this run gets aborted
+0000.028 (0) Checking if we have a zip executable available
+0000.030 (0) Creation of backups of directories: beginning
+0000.033 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0031.157 (0) Total entities for the zip file: 1600 directories, 7887 files (0 skipped as non-modified), 95.9 MB
+0031.170 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0033.267 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 100 files added (on-disk size: 333.5 KB)
+0033.280 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 200 files added (on-disk size: 333.5 KB)
+0033.292 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 300 files added (on-disk size: 333.5 KB)
+0033.304 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 400 files added (on-disk size: 333.5 KB)
+0033.315 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 500 files added (on-disk size: 333.5 KB)
+0033.327 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 600 files added (on-disk size: 333.5 KB)
+0033.341 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 700 files added (on-disk size: 333.5 KB)
+0033.353 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 800 files added (on-disk size: 333.5 KB)
+0033.365 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 900 files added (on-disk size: 333.5 KB)
+0033.377 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1000 files added (on-disk size: 333.5 KB)
+0033.378 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.8 MB, 7887 files batched, 1001 (1002) added so far); re-opening (prior size: 333.5 KB)
+0072.460 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1100 files added (on-disk size: 8035.8 KB)
+0073.591 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1200 files added (on-disk size: 8035.8 KB)
+0073.603 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1300 files added (on-disk size: 8035.8 KB)
+0073.615 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1400 files added (on-disk size: 8035.8 KB)
+0073.628 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1500 files added (on-disk size: 8035.8 KB)
+0073.640 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1600 files added (on-disk size: 8035.8 KB)
+0073.652 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1700 files added (on-disk size: 8035.8 KB)
+0073.664 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1800 files added (on-disk size: 8035.8 KB)
+0073.676 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1900 files added (on-disk size: 8035.8 KB)
+0073.688 (0) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2000 files added (on-disk size: 8035.8 KB)
+0073.689 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16 MB, 7887 files batched, 1001 (2003) added so far); re-opening (prior size: 8035.8 KB)
+0345.127 (1) Opened log file at time: Thu, 06 Oct 2022 07:58:01 +0000 on https://iyaadtech.cf
+0345.128 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57M | 42.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0345.129 (1) Free space on disk containing Updraft's temporary directory: Unknown
+0345.129 (1) Requesting backup semaphore lock (ee37932a4d3f)
+0345.131 (1) [Debug] Lock option (updraft_lock_ee37932a4d3f, wp2w_options) was created in the database
+0345.131 (1) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired after initialising the database
+0345.133 (1) Backup run: resumption=1, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (345s ago), job type=backup, previous check-in=72.43s
+0345.134 (1) Scheduling a resumption (2) after 300 seconds (1665043381) in case this run gets aborted
+0345.150 (1) Checking if we have a zip executable available
+0345.151 (1) Creation of backups of directories: had begun; will resume
+0345.153 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0345.155 (1) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665042810, time_now=1665043081, diff=271)
+0345.168 (1) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: Zip file already exists, with 1002 files
+0346.423 (1) Total entities for the zip file: 1600 directories, 7887 files (0 skipped as non-modified), 95.9 MB
+0346.438 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 100 files added (on-disk size: 8035.8 KB)
+0346.443 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 200 files added (on-disk size: 8035.8 KB)
+0346.448 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 300 files added (on-disk size: 8035.8 KB)
+0346.452 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 400 files added (on-disk size: 8035.8 KB)
+0346.457 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 500 files added (on-disk size: 8035.8 KB)
+0346.461 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 600 files added (on-disk size: 8035.8 KB)
+0346.466 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 700 files added (on-disk size: 8035.8 KB)
+0346.471 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 800 files added (on-disk size: 8035.8 KB)
+0346.475 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 900 files added (on-disk size: 8035.8 KB)
+0346.480 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1000 files added (on-disk size: 8035.8 KB)
+0346.492 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1100 files added (on-disk size: 8035.8 KB)
+0346.505 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1200 files added (on-disk size: 8035.8 KB)
+0346.517 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1300 files added (on-disk size: 8035.8 KB)
+0346.528 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1400 files added (on-disk size: 8035.8 KB)
+0346.541 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1500 files added (on-disk size: 8035.8 KB)
+0346.553 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1600 files added (on-disk size: 8035.8 KB)
+0346.565 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1700 files added (on-disk size: 8035.8 KB)
+0346.577 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1800 files added (on-disk size: 8035.8 KB)
+0346.588 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1900 files added (on-disk size: 8035.8 KB)
+0346.600 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2000 files added (on-disk size: 8035.8 KB)
+0346.601 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16 MB, 7887 files batched, 1001 (1001) added so far); re-opening (prior size: 8035.8 KB)
+0366.206 (1) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2100 files added (on-disk size: 12816.4 KB)
+0385.311 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 98 (1099) files added so far); re-opening (prior size: 12816.4 KB)
+0783.602 (2) Opened log file at time: Thu, 06 Oct 2022 08:05:20 +0000 on https://iyaadtech.cf
+0783.603 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57M | 32.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0783.604 (2) Free space on disk containing Updraft's temporary directory: Unknown
+0783.605 (2) Requesting backup semaphore lock (ee37932a4d3f)
+0783.606 (2) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+0783.608 (2) Backup run: resumption=2, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (784s ago), job type=backup, previous check-in=53.93s
+0783.610 (2) Scheduling a resumption (3) after 300 seconds (1665043820) in case this run gets aborted
+0783.631 (2) Checking if we have a zip executable available
+0783.632 (2) Creation of backups of directories: had begun; will resume
+0783.633 (2) Beginning creation of dump of plugins (split every: 400 MB)
+0783.635 (2) Deleting old temporary file: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp.ctorQQ
+0783.639 (2) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665043135, time_now=1665043520, diff=385)
+0783.657 (2) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: Zip file already exists, with 2101 files
+0784.920 (2) Total entities for the zip file: 1600 directories, 7887 files (0 skipped as non-modified), 95.9 MB
+0784.939 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 100 files added (on-disk size: 13107.6 KB)
+0784.944 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 200 files added (on-disk size: 13107.6 KB)
+0784.949 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 300 files added (on-disk size: 13107.6 KB)
+0784.953 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 400 files added (on-disk size: 13107.6 KB)
+0784.958 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 500 files added (on-disk size: 13107.6 KB)
+0784.962 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 600 files added (on-disk size: 13107.6 KB)
+0784.967 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 700 files added (on-disk size: 13107.6 KB)
+0784.971 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 800 files added (on-disk size: 13107.6 KB)
+0784.976 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 900 files added (on-disk size: 13107.6 KB)
+0784.981 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1000 files added (on-disk size: 13107.6 KB)
+0784.986 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1100 files added (on-disk size: 13107.6 KB)
+0784.991 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1200 files added (on-disk size: 13107.6 KB)
+0784.996 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1300 files added (on-disk size: 13107.6 KB)
+0785.000 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1400 files added (on-disk size: 13107.6 KB)
+0785.005 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1500 files added (on-disk size: 13107.6 KB)
+0785.010 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1600 files added (on-disk size: 13107.6 KB)
+0785.015 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1700 files added (on-disk size: 13107.6 KB)
+0785.019 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1800 files added (on-disk size: 13107.6 KB)
+0785.024 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1900 files added (on-disk size: 13107.6 KB)
+0785.028 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2000 files added (on-disk size: 13107.6 KB)
+0785.034 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2100 files added (on-disk size: 13107.6 KB)
+0785.045 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2200 files added (on-disk size: 13107.6 KB)
+0785.057 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2300 files added (on-disk size: 13107.6 KB)
+0785.069 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2400 files added (on-disk size: 13107.6 KB)
+0785.081 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2500 files added (on-disk size: 13107.6 KB)
+0785.093 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2600 files added (on-disk size: 13107.6 KB)
+0785.109 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2700 files added (on-disk size: 13107.6 KB)
+0785.124 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2800 files added (on-disk size: 13107.6 KB)
+0785.136 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2900 files added (on-disk size: 13107.6 KB)
+0785.149 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3000 files added (on-disk size: 13107.6 KB)
+0785.162 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3100 files added (on-disk size: 13107.6 KB)
+0785.163 (2) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.2 MB, 7887 files batched, 1001 (1001) added so far); re-opening (prior size: 13107.6 KB)
+0833.644 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3200 files added (on-disk size: 15652.6 KB)
+0836.012 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3300 files added (on-disk size: 15652.6 KB)
+0836.023 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3400 files added (on-disk size: 15652.6 KB)
+0836.034 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3500 files added (on-disk size: 15652.6 KB)
+0836.046 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3600 files added (on-disk size: 15652.6 KB)
+0836.057 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3700 files added (on-disk size: 15652.6 KB)
+0836.069 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3800 files added (on-disk size: 15652.6 KB)
+0836.081 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3900 files added (on-disk size: 15652.6 KB)
+0836.093 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4000 files added (on-disk size: 15652.6 KB)
+0836.105 (2) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4100 files added (on-disk size: 15652.6 KB)
+0836.106 (2) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.4 MB, 7887 files batched, 1001 (2002) added so far); re-opening (prior size: 15652.6 KB)
+2330.049 (3) Opened log file at time: Thu, 06 Oct 2022 08:31:06 +0000 on https://iyaadtech.cf
+2330.051 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 56.9M | 26.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+2330.052 (3) Free space on disk containing Updraft's temporary directory: Unknown
+2330.052 (3) Requesting backup semaphore lock (ee37932a4d3f)
+2330.053 (3) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+2330.055 (3) Backup run: resumption=3, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (2330s ago), job type=backup, previous check-in=50.01s
+2330.055 (3) Long time past since expected resumption time: approx expected=1665043870.4, now=1665045066.8, diff=1196.4
+2330.057 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2330.058 (3) Scheduling a resumption (4) after 300 seconds (1665045366) in case this run gets aborted
+2330.075 (3) Checking if we have a zip executable available
+2330.076 (3) Creation of backups of directories: had begun; will resume
+2330.077 (3) Beginning creation of dump of plugins (split every: 400 MB)
+2330.078 (3) Deleting old temporary file: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp.PsEw31
+2330.084 (3) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665043572, time_now=1665045066, diff=1494)
+2330.108 (3) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: Zip file already exists, with 3102 files
+2331.368 (3) Total entities for the zip file: 1600 directories, 7887 files (0 skipped as non-modified), 95.9 MB
+2331.391 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 100 files added (on-disk size: 15652.6 KB)
+2331.396 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 200 files added (on-disk size: 15652.6 KB)
+2331.401 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 300 files added (on-disk size: 15652.6 KB)
+2331.405 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 400 files added (on-disk size: 15652.6 KB)
+2331.410 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 500 files added (on-disk size: 15652.6 KB)
+2331.415 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 600 files added (on-disk size: 15652.6 KB)
+2331.419 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 700 files added (on-disk size: 15652.6 KB)
+2331.424 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 800 files added (on-disk size: 15652.6 KB)
+2331.429 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 900 files added (on-disk size: 15652.6 KB)
+2331.433 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1000 files added (on-disk size: 15652.6 KB)
+2331.439 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1100 files added (on-disk size: 15652.6 KB)
+2331.444 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1200 files added (on-disk size: 15652.6 KB)
+2331.450 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1300 files added (on-disk size: 15652.6 KB)
+2331.456 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1400 files added (on-disk size: 15652.6 KB)
+2331.460 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1500 files added (on-disk size: 15652.6 KB)
+2331.465 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1600 files added (on-disk size: 15652.6 KB)
+2331.470 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1700 files added (on-disk size: 15652.6 KB)
+2331.474 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1800 files added (on-disk size: 15652.6 KB)
+2331.479 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1900 files added (on-disk size: 15652.6 KB)
+2331.483 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2000 files added (on-disk size: 15652.6 KB)
+2331.491 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2100 files added (on-disk size: 15652.6 KB)
+2331.496 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2200 files added (on-disk size: 15652.6 KB)
+2331.501 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2300 files added (on-disk size: 15652.6 KB)
+2331.505 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2400 files added (on-disk size: 15652.6 KB)
+2331.510 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2500 files added (on-disk size: 15652.6 KB)
+2331.514 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2600 files added (on-disk size: 15652.6 KB)
+2331.520 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2700 files added (on-disk size: 15652.6 KB)
+2331.525 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2800 files added (on-disk size: 15652.6 KB)
+2331.530 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2900 files added (on-disk size: 15652.6 KB)
+2331.535 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3000 files added (on-disk size: 15652.6 KB)
+2331.540 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3100 files added (on-disk size: 15652.6 KB)
+2331.552 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3200 files added (on-disk size: 15652.6 KB)
+2331.565 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3300 files added (on-disk size: 15652.6 KB)
+2331.576 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3400 files added (on-disk size: 15652.6 KB)
+2331.588 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3500 files added (on-disk size: 15652.6 KB)
+2331.599 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3600 files added (on-disk size: 15652.6 KB)
+2331.612 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3700 files added (on-disk size: 15652.6 KB)
+2331.624 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3800 files added (on-disk size: 15652.6 KB)
+2331.637 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3900 files added (on-disk size: 15652.6 KB)
+2331.649 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4000 files added (on-disk size: 15652.6 KB)
+2331.661 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4100 files added (on-disk size: 15652.6 KB)
+2331.662 (3) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.4 MB, 7887 files batched, 1001 (1001) added so far); re-opening (prior size: 15652.6 KB)
+2383.216 (3) PHP event: code E_WARNING: sleep() has been disabled for security reasons (line 1952, wp-includes/wp-db.php)
+2383.872 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4200 files added (on-disk size: 22563.8 KB)
+2383.884 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4300 files added (on-disk size: 22563.8 KB)
+2383.896 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4400 files added (on-disk size: 22563.8 KB)
+2383.908 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4500 files added (on-disk size: 22563.8 KB)
+2383.919 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4600 files added (on-disk size: 22563.8 KB)
+2383.931 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4700 files added (on-disk size: 22563.8 KB)
+2383.943 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4800 files added (on-disk size: 22563.8 KB)
+2383.955 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4900 files added (on-disk size: 22563.8 KB)
+2383.966 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5000 files added (on-disk size: 22563.8 KB)
+2383.978 (3) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5100 files added (on-disk size: 22563.8 KB)
+2383.980 (3) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.8 MB, 7887 files batched, 1001 (2002) added so far); re-opening (prior size: 22563.8 KB)
+2697.197 (4) Opened log file at time: Thu, 06 Oct 2022 08:37:13 +0000 on https://iyaadtech.cf
+2697.199 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57M | 36.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+2697.200 (4) Free space on disk containing Updraft's temporary directory: Unknown
+2697.200 (4) Requesting backup semaphore lock (ee37932a4d3f)
+2697.201 (4) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+2697.203 (4) Backup run: resumption=4, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (2697s ago), job type=backup, previous check-in=112.21s
+2697.205 (4) Scheduling a resumption (5) after 300 seconds (1665045733) in case this run gets aborted
+2697.221 (4) Checking if we have a zip executable available
+2697.222 (4) Creation of backups of directories: had begun; will resume
+2697.225 (4) Beginning creation of dump of plugins (split every: 400 MB)
+2697.227 (4) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665045179, time_now=1665045434, diff=255)
+2697.257 (4) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: Zip file already exists, with 5104 files
+2698.523 (4) Total entities for the zip file: 1600 directories, 7887 files (0 skipped as non-modified), 95.9 MB
+2698.551 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 100 files added (on-disk size: 26594.1 KB)
+2698.556 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 200 files added (on-disk size: 26594.1 KB)
+2698.561 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 300 files added (on-disk size: 26594.1 KB)
+2698.565 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 400 files added (on-disk size: 26594.1 KB)
+2698.570 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 500 files added (on-disk size: 26594.1 KB)
+2698.574 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 600 files added (on-disk size: 26594.1 KB)
+2698.579 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 700 files added (on-disk size: 26594.1 KB)
+2698.584 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 800 files added (on-disk size: 26594.1 KB)
+2698.588 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 900 files added (on-disk size: 26594.1 KB)
+2698.593 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1000 files added (on-disk size: 26594.1 KB)
+2698.598 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1100 files added (on-disk size: 26594.1 KB)
+2698.603 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1200 files added (on-disk size: 26594.1 KB)
+2698.608 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1300 files added (on-disk size: 26594.1 KB)
+2698.613 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1400 files added (on-disk size: 26594.1 KB)
+2698.617 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1500 files added (on-disk size: 26594.1 KB)
+2698.622 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1600 files added (on-disk size: 26594.1 KB)
+2698.627 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1700 files added (on-disk size: 26594.1 KB)
+2698.632 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1800 files added (on-disk size: 26594.1 KB)
+2698.636 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1900 files added (on-disk size: 26594.1 KB)
+2698.641 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2000 files added (on-disk size: 26594.1 KB)
+2698.646 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2100 files added (on-disk size: 26594.1 KB)
+2698.651 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2200 files added (on-disk size: 26594.1 KB)
+2698.655 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2300 files added (on-disk size: 26594.1 KB)
+2698.660 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2400 files added (on-disk size: 26594.1 KB)
+2698.665 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2500 files added (on-disk size: 26594.1 KB)
+2698.669 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2600 files added (on-disk size: 26594.1 KB)
+2698.674 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2700 files added (on-disk size: 26594.1 KB)
+2698.679 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2800 files added (on-disk size: 26594.1 KB)
+2698.684 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2900 files added (on-disk size: 26594.1 KB)
+2698.689 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3000 files added (on-disk size: 26594.1 KB)
+2698.694 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3100 files added (on-disk size: 26594.1 KB)
+2698.699 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3200 files added (on-disk size: 26594.1 KB)
+2698.704 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3300 files added (on-disk size: 26594.1 KB)
+2698.709 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3400 files added (on-disk size: 26594.1 KB)
+2698.713 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3500 files added (on-disk size: 26594.1 KB)
+2698.717 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3600 files added (on-disk size: 26594.1 KB)
+2698.724 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3700 files added (on-disk size: 26594.1 KB)
+2698.729 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3800 files added (on-disk size: 26594.1 KB)
+2698.733 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3900 files added (on-disk size: 26594.1 KB)
+2698.738 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4000 files added (on-disk size: 26594.1 KB)
+2698.744 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4100 files added (on-disk size: 26594.1 KB)
+2698.748 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4200 files added (on-disk size: 26594.1 KB)
+2698.753 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4300 files added (on-disk size: 26594.1 KB)
+2698.757 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4400 files added (on-disk size: 26594.1 KB)
+2698.762 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4500 files added (on-disk size: 26594.1 KB)
+2698.766 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4600 files added (on-disk size: 26594.1 KB)
+2698.771 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4700 files added (on-disk size: 26594.1 KB)
+2698.775 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4800 files added (on-disk size: 26594.1 KB)
+2698.780 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4900 files added (on-disk size: 26594.1 KB)
+2698.784 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5000 files added (on-disk size: 26594.1 KB)
+2698.790 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5100 files added (on-disk size: 26594.1 KB)
+2698.802 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5200 files added (on-disk size: 26594.1 KB)
+2698.815 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5300 files added (on-disk size: 26594.1 KB)
+2698.827 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5400 files added (on-disk size: 26594.1 KB)
+2698.839 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5500 files added (on-disk size: 26594.1 KB)
+2698.852 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5600 files added (on-disk size: 26594.1 KB)
+2698.865 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5700 files added (on-disk size: 26594.1 KB)
+2698.878 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5800 files added (on-disk size: 26594.1 KB)
+2698.891 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5900 files added (on-disk size: 26594.1 KB)
+2698.904 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6000 files added (on-disk size: 26594.1 KB)
+2698.916 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6100 files added (on-disk size: 26594.1 KB)
+2698.918 (4) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.7 MB, 7887 files batched, 1001 (1001) added so far); re-opening (prior size: 26594.1 KB)
+2742.049 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6200 files added (on-disk size: 28396.5 KB)
+2742.173 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6300 files added (on-disk size: 28396.5 KB)
+2742.187 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6400 files added (on-disk size: 28396.5 KB)
+2742.199 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6500 files added (on-disk size: 28396.5 KB)
+2742.212 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6600 files added (on-disk size: 28396.5 KB)
+2742.225 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6700 files added (on-disk size: 28396.5 KB)
+2742.238 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6800 files added (on-disk size: 28396.5 KB)
+2742.250 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6900 files added (on-disk size: 28396.5 KB)
+2742.262 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7000 files added (on-disk size: 28396.5 KB)
+2742.274 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7100 files added (on-disk size: 28396.5 KB)
+2742.276 (4) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.3 MB, 7887 files batched, 1001 (2002) added so far); re-opening (prior size: 28396.5 KB)
+2790.256 (4) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7200 files added (on-disk size: 29853.7 KB)
+2794.540 (4) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 95 (2097) files added so far); re-opening (prior size: 29853.7 KB)
+3060.262 (5) Opened log file at time: Thu, 06 Oct 2022 08:43:17 +0000 on https://iyaadtech.cf
+3060.263 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57.6M | 28.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+3060.264 (5) Free space on disk containing Updraft's temporary directory: Unknown
+3060.265 (5) Requesting backup semaphore lock (ee37932a4d3f)
+3060.265 (5) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+3060.267 (5) Backup run: resumption=5, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (3061s ago), job type=backup, previous check-in=93.02s
+3060.268 (5) Scheduling a resumption (6) after 300 seconds (1665046097) in case this run gets aborted
+3060.284 (5) Checking if we have a zip executable available
+3060.285 (5) Creation of backups of directories: had begun; will resume
+3060.287 (5) Beginning creation of dump of plugins (split every: 400 MB)
+3060.289 (5) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665045531, time_now=1665045797, diff=266)
+3060.330 (5) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: Zip file already exists, with 7106 files
+3061.589 (5) Total entities for the zip file: 1600 directories, 7887 files (0 skipped as non-modified), 95.9 MB
+3061.626 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 100 files added (on-disk size: 29853.7 KB)
+3061.631 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 200 files added (on-disk size: 29853.7 KB)
+3061.635 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 300 files added (on-disk size: 29853.7 KB)
+3061.640 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 400 files added (on-disk size: 29853.7 KB)
+3061.645 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 500 files added (on-disk size: 29853.7 KB)
+3061.650 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 600 files added (on-disk size: 29853.7 KB)
+3061.654 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 700 files added (on-disk size: 29853.7 KB)
+3061.659 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 800 files added (on-disk size: 29853.7 KB)
+3061.664 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 900 files added (on-disk size: 29853.7 KB)
+3061.669 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1000 files added (on-disk size: 29853.7 KB)
+3061.674 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1100 files added (on-disk size: 29853.7 KB)
+3061.679 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1200 files added (on-disk size: 29853.7 KB)
+3061.684 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1300 files added (on-disk size: 29853.7 KB)
+3061.689 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1400 files added (on-disk size: 29853.7 KB)
+3061.694 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1500 files added (on-disk size: 29853.7 KB)
+3061.699 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1600 files added (on-disk size: 29853.7 KB)
+3061.703 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1700 files added (on-disk size: 29853.7 KB)
+3061.708 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1800 files added (on-disk size: 29853.7 KB)
+3061.713 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 1900 files added (on-disk size: 29853.7 KB)
+3061.717 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2000 files added (on-disk size: 29853.7 KB)
+3061.723 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2100 files added (on-disk size: 29853.7 KB)
+3061.728 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2200 files added (on-disk size: 29853.7 KB)
+3061.732 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2300 files added (on-disk size: 29853.7 KB)
+3061.737 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2400 files added (on-disk size: 29853.7 KB)
+3061.742 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2500 files added (on-disk size: 29853.7 KB)
+3061.747 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2600 files added (on-disk size: 29853.7 KB)
+3061.751 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2700 files added (on-disk size: 29853.7 KB)
+3061.756 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2800 files added (on-disk size: 29853.7 KB)
+3061.761 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 2900 files added (on-disk size: 29853.7 KB)
+3061.766 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3000 files added (on-disk size: 29853.7 KB)
+3061.773 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3100 files added (on-disk size: 29853.7 KB)
+3061.778 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3200 files added (on-disk size: 29853.7 KB)
+3061.784 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3300 files added (on-disk size: 29853.7 KB)
+3061.789 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3400 files added (on-disk size: 29853.7 KB)
+3061.793 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3500 files added (on-disk size: 29853.7 KB)
+3061.798 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3600 files added (on-disk size: 29853.7 KB)
+3061.802 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3700 files added (on-disk size: 29853.7 KB)
+3061.807 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3800 files added (on-disk size: 29853.7 KB)
+3061.811 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 3900 files added (on-disk size: 29853.7 KB)
+3061.816 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4000 files added (on-disk size: 29853.7 KB)
+3061.822 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4100 files added (on-disk size: 29853.7 KB)
+3061.827 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4200 files added (on-disk size: 29853.7 KB)
+3061.831 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4300 files added (on-disk size: 29853.7 KB)
+3061.836 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4400 files added (on-disk size: 29853.7 KB)
+3061.841 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4500 files added (on-disk size: 29853.7 KB)
+3061.845 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4600 files added (on-disk size: 29853.7 KB)
+3061.850 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4700 files added (on-disk size: 29853.7 KB)
+3061.854 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4800 files added (on-disk size: 29853.7 KB)
+3061.859 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 4900 files added (on-disk size: 29853.7 KB)
+3061.863 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5000 files added (on-disk size: 29853.7 KB)
+3061.869 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5100 files added (on-disk size: 29853.7 KB)
+3061.874 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5200 files added (on-disk size: 29853.7 KB)
+3061.879 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5300 files added (on-disk size: 29853.7 KB)
+3061.884 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5400 files added (on-disk size: 29853.7 KB)
+3061.890 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5500 files added (on-disk size: 29853.7 KB)
+3061.895 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5600 files added (on-disk size: 29853.7 KB)
+3061.900 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5700 files added (on-disk size: 29853.7 KB)
+3061.905 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5800 files added (on-disk size: 29853.7 KB)
+3061.910 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 5900 files added (on-disk size: 29853.7 KB)
+3061.916 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6000 files added (on-disk size: 29853.7 KB)
+3061.921 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6100 files added (on-disk size: 29853.7 KB)
+3061.926 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6200 files added (on-disk size: 29853.7 KB)
+3061.931 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6300 files added (on-disk size: 29853.7 KB)
+3061.936 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6400 files added (on-disk size: 29853.7 KB)
+3061.941 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6500 files added (on-disk size: 29853.7 KB)
+3061.946 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6600 files added (on-disk size: 29853.7 KB)
+3061.951 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6700 files added (on-disk size: 29853.7 KB)
+3061.956 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6800 files added (on-disk size: 29853.7 KB)
+3061.960 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 6900 files added (on-disk size: 29853.7 KB)
+3061.965 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7000 files added (on-disk size: 29853.7 KB)
+3061.970 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7100 files added (on-disk size: 29853.7 KB)
+3061.981 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7200 files added (on-disk size: 29853.7 KB)
+3061.993 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7300 files added (on-disk size: 29853.7 KB)
+3062.004 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7400 files added (on-disk size: 29853.7 KB)
+3062.017 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7500 files added (on-disk size: 29853.7 KB)
+3062.029 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7600 files added (on-disk size: 29853.7 KB)
+3062.040 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7700 files added (on-disk size: 29853.7 KB)
+3062.052 (5) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp: 7800 files added (on-disk size: 29853.7 KB)
+3103.832 (5) Creating zip file manifest (backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.list-temp.tmp)
+3107.017 (5) Successfully created zip file manifest (size: 744769)
+3107.561 (5) Created plugins zip (0) - 31695.4 KB in 47.3 s (670.5 KB/s) (sha1: c9bcd31d863b1eb65fc281398218355b1a01f192, sha256: df2f0fdd49eecc8057d4269f74588ab2a24b131a742afafcf81588be56e29df3)
+3107.562 (5) Deleting old temporary file: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip.tmp.Fg07tt
+3107.581 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3107.581 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d8616babc46ad9ee9438eee51eb326a8)
+3108.807 (5) Google Drive: quota usage: used=1052.1 MB, total=15360 MB, available=14307.9 MB
+3108.807 (5) Google Drive: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rRCyb4MMhmf2Kk0QccJKkndkspYLoou_)
+3111.898 (5) Googledrive chunked upload: 3.2 % uploaded (1048576)
+3114.714 (5) Googledrive chunked upload: 6.5 % uploaded (2097152)
+3117.610 (5) Googledrive chunked upload: 9.7 % uploaded (3145728)
+3120.250 (5) Googledrive chunked upload: 12.9 % uploaded (4194304)
+3122.915 (5) Googledrive chunked upload: 16.2 % uploaded (5242880)
+3125.709 (5) Googledrive chunked upload: 19.4 % uploaded (6291456)
+3128.584 (5) Googledrive chunked upload: 22.6 % uploaded (7340032)
+3131.304 (5) Googledrive chunked upload: 25.8 % uploaded (8388608)
+3133.971 (5) Googledrive chunked upload: 29.1 % uploaded (9437184)
+3136.745 (5) Googledrive chunked upload: 32.3 % uploaded (10485760)
+3139.558 (5) Googledrive chunked upload: 35.5 % uploaded (11534336)
+3142.258 (5) Googledrive chunked upload: 38.8 % uploaded (12582912)
+3144.949 (5) Googledrive chunked upload: 42 % uploaded (13631488)
+3147.805 (5) Googledrive chunked upload: 45.2 % uploaded (14680064)
+3150.640 (5) Googledrive chunked upload: 48.5 % uploaded (15728640)
+3153.315 (5) Googledrive chunked upload: 51.7 % uploaded (16777216)
+3156.325 (5) Googledrive chunked upload: 54.9 % uploaded (17825792)
+3159.025 (5) Googledrive chunked upload: 58.2 % uploaded (18874368)
+3161.824 (5) Googledrive chunked upload: 61.4 % uploaded (19922944)
+3164.667 (5) Googledrive chunked upload: 64.6 % uploaded (20971520)
+4143.980 (6) Opened log file at time: Thu, 06 Oct 2022 09:01:20 +0000 on https://iyaadtech.cf
+4143.981 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57.1M | 28.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+4143.982 (6) Free space on disk containing Updraft's temporary directory: Unknown
+4143.982 (6) Requesting backup semaphore lock (ee37932a4d3f)
+4143.983 (6) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+4143.985 (6) Backup run: resumption=6, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (4144s ago), job type=backup, previous check-in=104.4s
+4143.986 (6) Scheduling a resumption (7) after 300 seconds (1665047180) in case this run gets aborted
+4144.003 (6) Checking if we have a zip executable available
+4144.003 (6) Creation of backups of directories: had begun; will resume
+4144.006 (6) Beginning creation of dump of plugins (split every: 400 MB)
+4144.007 (6) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: this file has already been created (age: 979 s)
+4144.011 (6) Beginning creation of dump of themes (split every: 400 MB)
+4148.467 (6) Total entities for the zip file: 289 directories, 688 files (0 skipped as non-modified), 26.4 MB
+4148.470 (6) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+4148.500 (6) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.tmp: 100 files added (on-disk size: 50.6 KB)
+4148.517 (6) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.tmp: 200 files added (on-disk size: 50.6 KB)
+4148.530 (6) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.tmp: 300 files added (on-disk size: 50.6 KB)
+4148.543 (6) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.tmp: 400 files added (on-disk size: 50.6 KB)
+4148.556 (6) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.tmp: 500 files added (on-disk size: 50.6 KB)
+4148.569 (6) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.tmp: 600 files added (on-disk size: 50.6 KB)
+4148.577 (6) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.9 MB, 688 files batched, 662 (663) added so far); re-opening (prior size: 50.6 KB)
+4201.053 (6) A useful amount of data was added after this amount of zip processing: 52.8 s (normalised: 51 s, rate: 502 KB/s)
+4204.966 (6) Performance is good - will increase the amount of data we attempt to batch (time=52.8380160332, normalised_time=50.999529905, max_time=112, data points known=6, old_max_bytes=26214400, new_max_bytes=34541645)
+4215.078 (6) Creating zip file manifest (backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip.list-temp.tmp)
+4233.141 (6) Successfully created zip file manifest (size: 60060)
+4233.265 (6) Created themes zip (0) - 7014.1 KB in 89.3 s (78.6 KB/s) (sha1: ead0803456c490d9f45d8f13a63bb7ce81f66dae, sha256: ea0b3de763fd42fefc29f9b0bcb3a7a5c104d977da5e044638e120986faba1c8)
+4233.273 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4233.274 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d8616babc46ad9ee9438eee51eb326a8)
+4236.649 (6) Google Drive: quota usage: used=1052.1 MB, total=15360 MB, available=14307.9 MB
+4236.650 (6) Google Drive: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip: Attempting to upload to Google Drive (into folder id: 1rRCyb4MMhmf2Kk0QccJKkndkspYLoou_)
+4239.843 (6) Googledrive chunked upload: 14.6 % uploaded (1048576)
+4242.784 (6) Googledrive chunked upload: 29.2 % uploaded (2097152)
+18933.251 (7) Opened log file at time: Thu, 06 Oct 2022 13:07:50 +0000 on https://iyaadtech.cf
+18933.252 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57.1M | 30.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+18933.253 (7) Free space on disk containing Updraft's temporary directory: Unknown
+18933.253 (7) Requesting backup semaphore lock (ee37932a4d3f)
+18933.254 (7) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+18933.256 (7) Backup run: resumption=7, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (18934s ago), job type=backup, previous check-in=98.8s
+18933.257 (7) Long time past since expected resumption time: approx expected=1665047279.6, now=1665061670, diff=14390.5
+18933.257 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+18933.259 (7) Scheduling a resumption (8) after 300 seconds (1665061970) in case this run gets aborted
+18933.277 (7) Checking if we have a zip executable available
+18933.278 (7) Creation of backups of directories: had begun; will resume
+18933.282 (7) Beginning creation of dump of plugins (split every: 400 MB)
+18933.282 (7) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: this file has already been created (age: 15769 s)
+18933.286 (7) Beginning creation of dump of themes (split every: 400 MB)
+18933.287 (7) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip: this file has already been created (age: 14691 s)
+18933.290 (7) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+18933.291 (7) Looking for candidates to backup in: /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/uploads
+18933.292 (7) finding files: woocommerce-placeholder-300x300.png: adding to list (1)
+18933.292 (7) finding files: zbscrm-store: adding to list (2)
+18933.293 (7) finding files: wpo: adding to list (3)
+18933.293 (7) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+18933.294 (7) finding files: elementor: adding to list (5)
+18933.295 (7) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+18933.295 (7) finding files: woocommerce-placeholder-150x150.png: adding to list (7)
+18933.296 (7) finding files: wc-logs: adding to list (8)
+18933.297 (7) finding files: woocommerce-placeholder.png.webp: adding to list (9)
+18933.297 (7) finding files: pum: adding to list (10)
+18933.298 (7) finding files: woocommerce-placeholder-1024x1024.png.webp: adding to list (11)
+18933.298 (7) finding files: woocommerce-placeholder-updraft-pre-smush-original.png: adding to list (12)
+18933.299 (7) finding files: woocommerce-placeholder-768x768.png.webp: adding to list (13)
+18933.300 (7) finding files: woocommerce-placeholder-600x600.png: adding to list (14)
+18933.300 (7) finding files: 2022: adding to list (15)
+18933.301 (7) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+18933.302 (7) finding files: piotnetforms: adding to list (17)
+18933.302 (7) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (18)
+18933.303 (7) finding files: wpforms: adding to list (19)
+18933.304 (7) finding files: woocommerce-placeholder.png: adding to list (20)
+18933.304 (7) finding files: smush-d47cb9527ab47ad4597c.log: adding to list (21)
+18933.305 (7) finding files: wpo-plugins-tables-list.json: adding to list (22)
+18933.305 (7) finding files: woocommerce-placeholder-150x150.png.webp: adding to list (23)
+18933.306 (7) finding files: essential-addons-elementor: adding to list (24)
+18933.306 (7) finding files: woocommerce_uploads: adding to list (25)
+18933.307 (7) finding files: eb-patterns: adding to list (26)
+18933.308 (7) Beginning creation of dump of uploads (split every: 400 MB)
+18934.188 (7) Total entities for the zip file: 45 directories, 570 files (0 skipped as non-modified), 65 MB
+18934.202 (7) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+18934.214 (7) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+18934.225 (7) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+18934.229 (7) Adding batch to zip file (UpdraftPlus_ZipArchive): over 32.9 MB added on this batch (33.2 MB, 570 files batched, 324 (324) added so far); re-opening (prior size: 0 KB)
+21633.494 (8) Opened log file at time: Thu, 06 Oct 2022 13:52:50 +0000 on https://iyaadtech.cf
+21633.495 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57M | 56.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+21633.495 (8) Free space on disk containing Updraft's temporary directory: Unknown
+21633.496 (8) Requesting backup semaphore lock (ee37932a4d3f)
+21633.497 (8) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+21633.499 (8) Backup run: resumption=8, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (21634s ago), job type=backup
+21633.499 (8) Long time past since expected resumption time: approx expected=1665061970, now=1665064370.3, diff=2400.2
+21633.500 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+21633.502 (8) Time passed on previous resumptions: 0:72.4 1:53.9 2:50 3:112.2 4:93 5:104.4 6:98.8 7:?  (known: 7, max: 112)
+21633.502 (8) Based on the available data, we are bringing the resumption interval down to: 164 seconds
+21633.504 (8) Scheduling a resumption (9) after 164 seconds (1665064534) in case this run gets aborted
+21633.521 (8) Checking if we have a zip executable available
+21633.522 (8) Creation of backups of directories: had begun; will resume
+21633.527 (8) Beginning creation of dump of plugins (split every: 400 MB)
+21633.527 (8) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: this file has already been created (age: 18469 s)
+21633.531 (8) Beginning creation of dump of themes (split every: 400 MB)
+21633.532 (8) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip: this file has already been created (age: 17391 s)
+21633.535 (8) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+21633.536 (8) Looking for candidates to backup in: /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/uploads
+21633.537 (8) finding files: woocommerce-placeholder-300x300.png: adding to list (1)
+21633.538 (8) finding files: zbscrm-store: adding to list (2)
+21633.538 (8) finding files: wpo: adding to list (3)
+21633.539 (8) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+21633.539 (8) finding files: elementor: adding to list (5)
+21633.540 (8) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+21633.541 (8) finding files: woocommerce-placeholder-150x150.png: adding to list (7)
+21633.541 (8) finding files: wc-logs: adding to list (8)
+21633.542 (8) finding files: woocommerce-placeholder.png.webp: adding to list (9)
+21633.542 (8) finding files: pum: adding to list (10)
+21633.543 (8) finding files: woocommerce-placeholder-1024x1024.png.webp: adding to list (11)
+21633.545 (8) finding files: woocommerce-placeholder-updraft-pre-smush-original.png: adding to list (12)
+21633.546 (8) finding files: woocommerce-placeholder-768x768.png.webp: adding to list (13)
+21633.546 (8) finding files: woocommerce-placeholder-600x600.png: adding to list (14)
+21633.547 (8) finding files: 2022: adding to list (15)
+21633.548 (8) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+21633.549 (8) finding files: piotnetforms: adding to list (17)
+21633.550 (8) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (18)
+21633.551 (8) finding files: wpforms: adding to list (19)
+21633.552 (8) finding files: woocommerce-placeholder.png: adding to list (20)
+21633.553 (8) finding files: smush-d47cb9527ab47ad4597c.log: adding to list (21)
+21633.554 (8) finding files: wpo-plugins-tables-list.json: adding to list (22)
+21633.555 (8) finding files: woocommerce-placeholder-150x150.png.webp: adding to list (23)
+21633.556 (8) finding files: essential-addons-elementor: adding to list (24)
+21633.557 (8) finding files: woocommerce_uploads: adding to list (25)
+21633.558 (8) finding files: eb-patterns: adding to list (26)
+21633.559 (8) Beginning creation of dump of uploads (split every: 400 MB)
+21633.560 (8) Deleting old temporary file: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp.PGDqQo
+21633.568 (8) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665061671, time_now=1665064370, diff=2699)
+21633.570 (8) Zip file already exists, but is not readable or was zero-sized; will remove: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp
+21633.647 (8) Total entities for the zip file: 45 directories, 570 files (0 skipped as non-modified), 65 MB
+21633.659 (8) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+21633.671 (8) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+21633.682 (8) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+21633.686 (8) Adding batch to zip file (UpdraftPlus_ZipArchive): over 32.9 MB added on this batch (33.2 MB, 570 files batched, 324 (324) added so far); re-opening (prior size: 0 KB)
+21689.176 (8) A useful amount of data was added after this amount of zip processing: 56 s (normalised: 55.5 s, rate: 607.9 KB/s)
+21693.178 (8) Performance is good - will increase the amount of data we attempt to batch (time=55.9617400169, normalised_time=55.4928987635, max_time=112, data points known=7, old_max_bytes=34541645, new_max_bytes=41828749)
+21693.190 (8) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 400 files added (on-disk size: 33965.4 KB)
+21693.201 (8) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 500 files added (on-disk size: 33965.4 KB)
+24341.981 (9) Opened log file at time: Thu, 06 Oct 2022 14:37:58 +0000 on https://iyaadtech.cf
+24342.008 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 63.3M | 49M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+24342.047 (9) Free space on disk containing Updraft's temporary directory: Unknown
+24342.078 (9) Requesting backup semaphore lock (ee37932a4d3f)
+24342.110 (9) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+24342.161 (9) Backup run: resumption=9, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (24342s ago), job type=backup, previous check-in=59.69s
+24342.171 (9) Long time past since expected resumption time: approx expected=1665064594, now=1665067078.8, diff=2484.8
+24342.211 (9) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+24342.253 (9) Scheduling a resumption (10) after 164 seconds (1665067243) in case this run gets aborted
+24342.316 (9) Checking if we have a zip executable available
+24342.340 (9) Creation of backups of directories: had begun; will resume
+24342.344 (9) Beginning creation of dump of plugins (split every: 400 MB)
+24342.345 (9) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: this file has already been created (age: 21178 s)
+24342.537 (9) Beginning creation of dump of themes (split every: 400 MB)
+24342.538 (9) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip: this file has already been created (age: 20100 s)
+24342.583 (9) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+24342.592 (9) Looking for candidates to backup in: /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/uploads
+24342.611 (9) finding files: woocommerce-placeholder-300x300.png: adding to list (1)
+24342.621 (9) finding files: zbscrm-store: adding to list (2)
+24342.631 (9) finding files: wpo: adding to list (3)
+24342.641 (9) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+24342.651 (9) finding files: elementor: adding to list (5)
+24342.661 (9) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+24342.671 (9) finding files: woocommerce-placeholder-150x150.png: adding to list (7)
+24342.681 (9) finding files: wc-logs: adding to list (8)
+24342.691 (9) finding files: woocommerce-placeholder.png.webp: adding to list (9)
+24342.701 (9) finding files: pum: adding to list (10)
+24342.711 (9) finding files: woocommerce-placeholder-1024x1024.png.webp: adding to list (11)
+24342.721 (9) finding files: woocommerce-placeholder-updraft-pre-smush-original.png: adding to list (12)
+24342.731 (9) finding files: woocommerce-placeholder-768x768.png.webp: adding to list (13)
+24342.732 (9) finding files: woocommerce-placeholder-600x600.png: adding to list (14)
+24342.732 (9) finding files: 2022: adding to list (15)
+24342.742 (9) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+24342.752 (9) finding files: piotnetforms: adding to list (17)
+24342.762 (9) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (18)
+24342.772 (9) finding files: wpforms: adding to list (19)
+24342.782 (9) finding files: woocommerce-placeholder.png: adding to list (20)
+24342.792 (9) finding files: smush-d47cb9527ab47ad4597c.log: adding to list (21)
+24342.802 (9) finding files: wpo-plugins-tables-list.json: adding to list (22)
+24342.812 (9) finding files: woocommerce-placeholder-150x150.png.webp: adding to list (23)
+24342.822 (9) finding files: essential-addons-elementor: adding to list (24)
+24342.832 (9) finding files: woocommerce_uploads: adding to list (25)
+24342.842 (9) finding files: eb-patterns: adding to list (26)
+24342.862 (9) Beginning creation of dump of uploads (split every: 400 MB)
+24342.872 (9) Deleting old temporary file: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp.dDvnhW
+24342.892 (9) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665064429, time_now=1665067079, diff=2650)
+24342.923 (9) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: Zip file already exists, with 324 files
+24343.402 (9) Total entities for the zip file: 45 directories, 570 files (0 skipped as non-modified), 65 MB
+24343.417 (9) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 100 files added (on-disk size: 33965.4 KB)
+24343.426 (9) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 200 files added (on-disk size: 33965.4 KB)
+24343.436 (9) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 300 files added (on-disk size: 33965.4 KB)
+24343.450 (9) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 400 files added (on-disk size: 33965.4 KB)
+24343.462 (9) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 500 files added (on-disk size: 33965.4 KB)
+26775.579 (10) Opened log file at time: Thu, 06 Oct 2022 15:18:32 +0000 on https://iyaadtech.cf
+26775.648 (10) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57.3M | 58.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+26775.675 (10) Free space on disk containing Updraft's temporary directory: Unknown
+26775.675 (10) Requesting backup semaphore lock (ee37932a4d3f)
+26775.676 (10) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+26775.678 (10) Backup run: resumption=10, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (26776s ago), job type=backup
+26775.679 (10) Long time past since expected resumption time: approx expected=1665067242.8, now=1665069512.4, diff=2269.6
+26775.679 (10) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+26775.681 (10) The current run is resumption number 10, and there was nothing useful done on the last run (last useful run: 8) - will not schedule a further attempt until we see something useful happening this time
+26775.683 (10) Scheduling a resumption (11) after 164 seconds (1665069676); but the job will then be aborted unless something happens this time
+26775.699 (10) Creation of backups of directories: had begun; will resume
+26775.700 (10) No check-in was detected on the previous run - as a result, we are reducing the batch amount (old=41828749, new=31371561)
+26775.705 (10) Beginning creation of dump of plugins (split every: 400 MB)
+26775.706 (10) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: this file has already been created (age: 23611 s)
+26775.710 (10) Beginning creation of dump of themes (split every: 400 MB)
+26775.711 (10) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip: this file has already been created (age: 22533 s)
+26775.715 (10) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+26775.715 (10) Looking for candidates to backup in: /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/uploads
+26775.716 (10) finding files: woocommerce-placeholder-300x300.png: adding to list (1)
+26775.717 (10) finding files: zbscrm-store: adding to list (2)
+26775.717 (10) finding files: wpo: adding to list (3)
+26775.718 (10) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+26775.719 (10) finding files: elementor: adding to list (5)
+26775.719 (10) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+26775.720 (10) finding files: woocommerce-placeholder-150x150.png: adding to list (7)
+26775.720 (10) finding files: wc-logs: adding to list (8)
+26775.721 (10) finding files: woocommerce-placeholder.png.webp: adding to list (9)
+26775.722 (10) finding files: pum: adding to list (10)
+26775.722 (10) finding files: woocommerce-placeholder-1024x1024.png.webp: adding to list (11)
+26775.723 (10) finding files: woocommerce-placeholder-updraft-pre-smush-original.png: adding to list (12)
+26775.723 (10) finding files: woocommerce-placeholder-768x768.png.webp: adding to list (13)
+26775.724 (10) finding files: woocommerce-placeholder-600x600.png: adding to list (14)
+26775.725 (10) finding files: 2022: adding to list (15)
+26775.725 (10) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+26775.726 (10) finding files: piotnetforms: adding to list (17)
+26775.726 (10) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (18)
+26775.727 (10) finding files: wpforms: adding to list (19)
+26775.727 (10) finding files: woocommerce-placeholder.png: adding to list (20)
+26775.728 (10) finding files: smush-d47cb9527ab47ad4597c.log: adding to list (21)
+26775.729 (10) finding files: wpo-plugins-tables-list.json: adding to list (22)
+26775.729 (10) finding files: woocommerce-placeholder-150x150.png.webp: adding to list (23)
+26775.730 (10) finding files: essential-addons-elementor: adding to list (24)
+26775.731 (10) finding files: woocommerce_uploads: adding to list (25)
+26775.731 (10) finding files: eb-patterns: adding to list (26)
+26775.732 (10) Beginning creation of dump of uploads (split every: 400 MB)
+26775.733 (10) Deleting old temporary file: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp.VvFAGK
+26775.746 (10) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665067080, time_now=1665069512, diff=2432)
+26775.749 (10) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: Zip file already exists, with 324 files
+26775.878 (10) Total entities for the zip file: 45 directories, 570 files (0 skipped as non-modified), 65 MB
+26775.885 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 100 files added (on-disk size: 33965.4 KB)
+26775.892 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 200 files added (on-disk size: 33965.4 KB)
+26775.902 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 300 files added (on-disk size: 33965.4 KB)
+26775.916 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 400 files added (on-disk size: 33965.4 KB)
+26775.929 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 500 files added (on-disk size: 33965.4 KB)
+26775.944 (10) Adding batch to zip file (UpdraftPlus_ZipArchive): over 29.9 MB added on this batch (30 MB, 570 files batched, 224 (224) added so far); re-opening (prior size: 33965.4 KB)
+27033.375 (10) Opened log file at time: Thu, 06 Oct 2022 15:22:50 +0000 on https://iyaadtech.cf
+27033.376 (10) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.8 (apache2handler, Linux freeweb22.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 57M | 46.5M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+27033.377 (10) Free space on disk containing Updraft's temporary directory: Unknown
+27033.377 (10) Requesting backup semaphore lock (ee37932a4d3f)
+27033.378 (10) [Info] Lock (updraft_lock_ee37932a4d3f, wp2w_options) acquired
+27033.380 (10) Backup run: resumption=10, nonce=ee37932a4d3f, file_nonce=ee37932a4d3f begun at=1665042736 (27034s ago), job type=backup
+27033.380 (10) Long time past since expected resumption time: approx expected=1665067242.8, now=1665069770.2, diff=2527.4
+27033.381 (10) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+27033.396 (10) Creation of backups of directories: had begun; will resume
+27033.400 (10) Beginning creation of dump of plugins (split every: 400 MB)
+27033.401 (10) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-plugins.zip: this file has already been created (age: 23869 s)
+27033.405 (10) Beginning creation of dump of themes (split every: 400 MB)
+27033.405 (10) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-themes.zip: this file has already been created (age: 22791 s)
+27033.409 (10) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+27033.410 (10) Looking for candidates to backup in: /home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/uploads
+27033.410 (10) finding files: woocommerce-placeholder-300x300.png: adding to list (1)
+27033.411 (10) finding files: zbscrm-store: adding to list (2)
+27033.412 (10) finding files: wpo: adding to list (3)
+27033.412 (10) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+27033.413 (10) finding files: elementor: adding to list (5)
+27033.414 (10) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+27033.414 (10) finding files: woocommerce-placeholder-150x150.png: adding to list (7)
+27033.415 (10) finding files: wc-logs: adding to list (8)
+27033.415 (10) finding files: woocommerce-placeholder.png.webp: adding to list (9)
+27033.416 (10) finding files: pum: adding to list (10)
+27033.417 (10) finding files: woocommerce-placeholder-1024x1024.png.webp: adding to list (11)
+27033.417 (10) finding files: woocommerce-placeholder-updraft-pre-smush-original.png: adding to list (12)
+27033.418 (10) finding files: woocommerce-placeholder-768x768.png.webp: adding to list (13)
+27033.419 (10) finding files: woocommerce-placeholder-600x600.png: adding to list (14)
+27033.419 (10) finding files: 2022: adding to list (15)
+27033.420 (10) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+27033.420 (10) finding files: piotnetforms: adding to list (17)
+27033.421 (10) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (18)
+27033.422 (10) finding files: wpforms: adding to list (19)
+27033.422 (10) finding files: woocommerce-placeholder.png: adding to list (20)
+27033.423 (10) finding files: smush-d47cb9527ab47ad4597c.log: adding to list (21)
+27033.424 (10) finding files: wpo-plugins-tables-list.json: adding to list (22)
+27033.424 (10) finding files: woocommerce-placeholder-150x150.png.webp: adding to list (23)
+27033.425 (10) finding files: essential-addons-elementor: adding to list (24)
+27033.425 (10) finding files: woocommerce_uploads: adding to list (25)
+27033.426 (10) finding files: eb-patterns: adding to list (26)
+27033.427 (10) Beginning creation of dump of uploads (split every: 400 MB)
+27033.428 (10) File exists (/home/vol10_3/epizy.com/epiz_32279584/iyaadtech.cf/htdocs/wp-content/updraft/backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1665069512, time_now=1665069770, diff=258)
+27033.431 (10) backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: Zip file already exists, with 324 files
+27033.505 (10) Total entities for the zip file: 45 directories, 570 files (0 skipped as non-modified), 65 MB
+27033.512 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 100 files added (on-disk size: 33965.4 KB)
+27033.516 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 200 files added (on-disk size: 33965.4 KB)
+27033.520 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 300 files added (on-disk size: 33965.4 KB)
+27033.529 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 400 files added (on-disk size: 33965.4 KB)
+27033.540 (10) Zip: backup_2022-10-06-0752_Iyaad_Tech_ee37932a4d3f-uploads.zip.tmp: 500 files added (on-disk size: 33965.4 KB)
+27033.546 (10) Adding batch to zip file (UpdraftPlus_ZipArchive): over 29.9 MB added on this batch (30 MB, 570 files batched, 224 (224) added so far); re-opening (prior size: 33965.4 KB)
